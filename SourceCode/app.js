@@ -2,7 +2,7 @@
 
 
 //Menu bar toggle
-/*function menuToggle(){
+function menuToggle(){
  let showbar = document.querySelector("#menuIcon");
  let hidebar = document.querySelector(".closebtn");
 
@@ -21,21 +21,21 @@
    e.preventDefault();
   }
 };
-menuToggle(); */
+menuToggle(); 
 
 //Animate on scroll founction
 
-function animateOnScroll(){
+/* function animateOnScroll(){
  let targetedDiv= document.querySelector(".scrollMe");
  const scrollOffset = 100;
 
 
-/* const elementInvView = (el,  offset = 0 )=>{
+ const elementInvView = (el,  offset = 0 )=>{
    const elementTop =  el.getBoundingClientRect().top;
    return(
     elementTop <= ((Window.innerHeight || document.documentElement.clientHeight) - offset)
    );
- } */
+ }
  const elementInView = (el, offset = 0) => {
   const elementTop = el.getBoundingClientRect().top;
 
@@ -67,4 +67,4 @@ function animateOnScroll(){
  
  
 }
-animateOnScroll();
+animateOnScroll(); */

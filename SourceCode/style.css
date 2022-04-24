@@ -1,24 +1,33 @@
 /* variables */
 /*imorted font */
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Yanone+Kaffeesatz:wght@200;300;400;700&family=Zen+Old+Mincho:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,300&family=Outfit:wght@300;400;700&family=Yanone+Kaffeesatz:wght@200;300;400;700&family=Zen+Old+Mincho:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,300&family=Outfit:wght@300;400;700&family=Yanone+Kaffeesatz:wght@200;300;400;700&family=Zen+Old+Mincho:wght@400;700;900&display=swap");
+/*
+ font-family: 'Lato', sans-serif;
+ font-family: 'Outfit', sans-serif;
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ font-family: 'Zen Old Mincho', serif;
+} */
 /*font-family: 'Outfit', sans-serif;
 font-family: 'Yanone Kaffeesatz', sans-serif;
-font-family: 'Zen Old Mincho', serif; */
-@font-face {
-  font-family: myfirstfont;
-  src: url(./static/YanoneKaffeesatz-Regular.ttf);
-}
+font-family: 'Zen Old Mincho', serif; 
 
-@font-face {
-  font-family: mySecondfont;
-  src: url(./static/YanoneKaffeesatz-Bold.ttf);
-}
+@font-face{
+ font-family: myfirstfont;
+ src: url(./static/YanoneKaffeesatz-Regular.ttf);
+}  
 
-@font-face {
-  font-family: mythirdfont;
-  src: url(./static/YanoneKaffeesatz-Medium.ttf);
-}
 
+@font-face{
+ font-family: mySecondfont;
+ src: url(./static/YanoneKaffeesatz-Bold.ttf);
+}  
+
+@font-face{
+ font-family: mythirdfont;
+ src: url(./static/YanoneKaffeesatz-Medium.ttf)
+;
+}  */
 * {
   background: white;
   padding: 0;
@@ -30,6 +39,7 @@ font-family: 'Zen Old Mincho', serif; */
 body {
   width: 1200px;
   margin: auto;
+  scroll-behavior: smooth;
 }
 
 /********Menu Container ********/
@@ -60,8 +70,8 @@ body {
 
 .li-container nav li {
   margin-left: 19px;
-  font-family: mysecondfont;
-  font-size: 23px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 
 .li-container nav a {
@@ -93,7 +103,7 @@ body {
 }
 
 .section1 .sectionA {
-  width: 290px;
+  width: 35%;
   margin-left: 90px;
   margin-top: 40px;
 }
@@ -101,10 +111,12 @@ body {
 .section1 .sectionA .headingText {
   font-size: 20px;
   margin-bottom: -5px;
+  font-family: 'Outfit', sans-serif;
 }
 
 .section1 .sectionA .headingText span {
   font-weight: bold;
+  font-family: 'Lato', sans-serif;
   font-size: 1.3rem;
 }
 
@@ -120,7 +132,7 @@ body {
 
 .section1 .sectionA .subHeadingText p {
   font-size: 13px;
-  font-family: myfirstfont;
+  font-family: 'Outfit', sans-serif;
   font-size: 20px;
 }
 
@@ -170,10 +182,11 @@ body {
 .section2 .aboutText header {
   font-weight: bold;
   font-size: 2rem;
+  font-family: 'Lato', sans-serif;
 }
 
 .section2 .aboutText p {
-  font-family: mythirdfont;
+  font-family: 'Outfit', sans-serif;
   font-size: 20px;
 }
 
@@ -191,12 +204,13 @@ body {
   border-color: white;
   padding: 8px;
   width: 100px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 /* service */
 .serviceSection h4 {
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .serviceSection h4 .fa {
@@ -223,7 +237,7 @@ body {
 
 .serviceSection .service-content .service1 h4, .serviceSection .service-content .service3 h4 {
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Outfit', sans-serif;
 }
 
 .serviceSection .service-content .service1 h4 .fas, .serviceSection .service-content .service1 h4 .fa, .serviceSection .service-content .service3 h4 .fas, .serviceSection .service-content .service3 h4 .fa {
@@ -237,7 +251,7 @@ body {
 .serviceSection .service-content .service1 p, .serviceSection .service-content .service3 p {
   text-align: center;
   color: black;
-  font-family: mythirdfont;
+  font-family: 'Outfit', sans-serif;
   font-size: 20px;
 }
 
@@ -255,7 +269,7 @@ body {
   text-align: center;
   background: #55df55;
   color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .serviceSection .service-content .service2 h4 .fas {
@@ -271,8 +285,8 @@ body {
   color: white;
   background: #55df55;
   text-align: center;
-  font-family: mythirdfont;
   font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
 .serviceSection .MoreBtnDiv {
@@ -298,6 +312,7 @@ body {
   text-align: center;
   margin: 5px;
   background: #6ec56e;
+  font-family: 'Lato', sans-serif;
 }
 
 .portifolio-container .content {
@@ -344,6 +359,7 @@ body {
 /*client page */
 .client-container h2 {
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .client-container .content {
@@ -373,10 +389,12 @@ body {
 
 .client-container .content .content1 .view-detail .names, .client-container .content .content2 .view-detail .names, .client-container .content .content3 .view-detail .names {
   margin-top: 10px;
+  font-family: 'Lato', sans-serif;
 }
 
 .client-container .content .content1 .view-detail .names p, .client-container .content .content2 .view-detail .names p, .client-container .content .content3 .view-detail .names p {
   margin-top: 7px;
+  font-family: 'Outfit', sans-serif;
 }
 
 .client-container .content .content1 .client-image, .client-container .content .content2 .client-image, .client-container .content .content3 .client-image {
@@ -397,8 +415,9 @@ body {
 }
 
 .client-container .content .content1 p, .client-container .content .content2 p, .client-container .content .content3 p {
-  font-family: myfirstfont;
-  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  text-align: center;
 }
 
 /* Email section */
@@ -442,7 +461,7 @@ body {
   text-align: center;
   margin-top: 30px;
   color: #242222;
-  font-family: fantasy;
+  font-family: 'Lato', sans-serif;
 }
 
 .contact-container .content .content2 form input {
@@ -492,7 +511,7 @@ body {
   background: #6ec56e;
   color: white;
   border-color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   font-size: 15px;
 }
@@ -512,8 +531,8 @@ body {
 .footer-container .content .content1 ul li, .footer-container .content .content2 ul li, .footer-container .content .content3 ul li {
   text-decoration: none;
   margin: 10px;
-  font-family: mysecondfont;
-  font-size: 20px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
   outline: none;
 }
 
@@ -529,6 +548,7 @@ body {
 .footer-container .social-media {
   text-align: center;
   margin: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
 .footer-container .social-media h4 {
@@ -550,6 +570,7 @@ body {
 
 .footer-container .content h4 {
   font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
 .author {
@@ -559,13 +580,13 @@ body {
 .author h4 {
   padding: 8px;
   color: #b1a4a4;
+  font-family: 'Lato', sans-serif;
 }
 
 /***************Mobile responsive*******************/
 @media screen and (max-width: 768px) {
   body {
     max-width: 100%;
-    border: 2px solid red;
     margin: auto;
   }
   .li-container {
@@ -626,7 +647,7 @@ body {
     font-size: 25px;
     margin: 30px;
     background: #55df55;
-    color: red;
+    color: black;
   }
   .li-container #lettalkBtn {
     display: none;

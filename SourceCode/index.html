@@ -5,6 +5,7 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Portifolio</title>
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
  <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="./font/fontawesome/css/all.css">
 
@@ -34,7 +35,16 @@
  <!---Section1-->
  <main>
  <section>
-  <div class="section1 " id="#home">
+  
+  <div
+  data-aos="fade-left"
+  data-aos-offset="200"
+  data-aos-easing="ease-in-out"
+  data-aos-delay="50"
+  data-aos-duration="1000"
+  class="section1"
+   id="#home">
+
    <div class="sectionA ">
     
 <header class="headingText">
@@ -64,12 +74,19 @@
    </div>
 
   </div>
+ 
  </section>
-
+<br />
+<br />
  <!---Section2-->
  <!---About pafe-->
  <section>
-  <div class="section2  scrolled" id="about">
+  <div  data-aos="fade-right"
+  data-aos-offset="200"
+  data-aos-easing="ease-in-out"
+  data-aos-delay="50"
+  data-aos-duration="1000"
+  class="section2  " id="about">
    <div class="aboutImageContainer">
     <img src="./images/profile.png" class= "aboutImage" alt="aboutImage">
    </div>
@@ -97,7 +114,12 @@
  <br> 
  <section>
   <br>
-  <div class="serviceSection " id="service">
+  <div  data-aos="fade-up"
+  data-aos-offset="200"
+  data-aos-easing="ease-in-out"
+  data-aos-delay="50"
+  data-aos-duration="1000"
+  class="serviceSection " id="service">
    <header><h2 style="text-align:center;">My Services</h2></header>
    <br>
    <div class="service-content">
@@ -138,7 +160,12 @@
  <br>
  <br>
 
-  <div class="portifolio-container" id="portifolio">
+  <div  data-aos="fade-down"
+  data-aos-offset="200"
+  data-aos-easing="ease-in-out"
+  data-aos-delay="50"
+  data-aos-duration="1000"
+  class="portifolio-container" id="portifolio">
    <br><br>
    <br><br>
     <h2 id="portifilio-heaader">My Portifilio</h2>
@@ -170,7 +197,12 @@
      <br>
      <br>
     
-  <div class="client-container">
+  <div  data-aos="fade-left"
+  data-aos-offset="200"
+  data-aos-easing="ease-in-out"
+  data-aos-delay="50"
+  data-aos-duration="1000"]
+  class="client-container">
    <br>
    <br>
    <br>
@@ -271,7 +303,12 @@
    <br>
    <br>
    
-  <div class="contact-container" id="contact">
+  <div  data-aos="fade-up"
+  data-aos-offset="200"
+  data-aos-easing="ease-in-out"
+  data-aos-delay="50"
+  data-aos-duration="1000"
+  class="contact-container" id="contact">
    <div class="content">
     <div class="content1">
      <img src="./images/emails.svg" alt="contact-Image">
@@ -308,7 +345,12 @@
 <!----FOOTER-->
 
 <section>
- <div class="footer-container">
+ <div  data-aos="fade-left"
+ data-aos-offset="200"
+ data-aos-easing="ease-in-out"
+ data-aos-delay="50"
+ data-aos-duration="1000"
+ class="footer-container">
   <div class="social-media">
  <br> <br> <br> 
 
@@ -367,6 +409,9 @@
  </div>
 </section>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script> AOS.init();</script>
  <script src="app.js"></script>
+
 </body>
 </html>
