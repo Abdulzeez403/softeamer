@@ -44,11 +44,8 @@ body {
 
 /********Menu Container ********/
 .li-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+display: flex;
+justify-content: space-around;
 }
 
 .li-container .menubar {
@@ -68,10 +65,10 @@ body {
   padding: 0;
 }
 
-.li-container nav li {
-  margin-left: 19px;
+.li-container nav  li {
+ margin-left: 18px;
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .li-container nav a {
@@ -90,6 +87,10 @@ body {
 
 .li-container .logo_img {
   width: 40px;
+  
+}
+.closebtn{
+  display: none;
 }
 
 /***************Developer first page ***************/
@@ -109,7 +110,7 @@ body {
 }
 
 .section1 .sectionA .headingText {
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: -5px;
   font-family: 'Outfit', sans-serif;
 }
@@ -131,9 +132,8 @@ body {
 }
 
 .section1 .sectionA .subHeadingText p {
-  font-size: 13px;
   font-family: 'Outfit', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .section1 .sectionA .icon-contents {
@@ -187,7 +187,7 @@ body {
 
 .section2 .aboutText p {
   font-family: 'Outfit', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .section2 .aboutText .btnStack {
@@ -252,7 +252,7 @@ body {
   text-align: center;
   color: black;
   font-family: 'Outfit', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .serviceSection .service-content .service2 {
@@ -263,6 +263,8 @@ body {
   background: #55df55;
   margin: 5px;
   position: relative;
+  font-size: 15px;
+
 }
 
 .serviceSection .service-content .service2 h4 {
@@ -287,6 +289,8 @@ body {
   text-align: center;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
+  font-size: 15px;
+
 }
 
 .serviceSection .MoreBtnDiv {
@@ -304,14 +308,13 @@ body {
 }
 
 /*********Portifolio page ***********/
-.portifolio-container {
-  background: #6ec56e;
+.portifolio-container{
+  
 }
 
 .portifolio-container #portifilio-heaader {
   text-align: center;
   margin: 5px;
-  background: #6ec56e;
   font-family: 'Lato', sans-serif;
 }
 
@@ -322,13 +325,11 @@ body {
   width: 750px;
   height: 500px;
   margin: auto;
-  background: #6ec56e;
 }
 
 .portifolio-container .content .content1, .portifolio-container .content .content2, .portifolio-container .content .content3 {
   width: 250px;
   height: 200px;
-  background: #6ec56e;
 }
 
 .portifolio-container .content .content1 img, .portifolio-container .content .content2 img, .portifolio-container .content .content3 img {
@@ -339,7 +340,6 @@ body {
 }
 
 .portifolio-container .p-btn-div {
-  background: #6ec56e;
   width: 150px;
   height: 54px;
   margin: auto;
@@ -416,7 +416,7 @@ body {
 
 .client-container .content .content1 p, .client-container .content .content2 p, .client-container .content .content3 p {
   font-family: 'Outfit', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -648,6 +648,7 @@ body {
     margin: 30px;
     background: #55df55;
     color: black;
+    display: block;
   }
   .li-container #lettalkBtn {
     display: none;
@@ -829,7 +830,7 @@ body {
   }
   .portifolio-container .content-container {
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: auto;
     background: #6ec56e;
   }
   .portifolio-container .content-container .content {
@@ -840,7 +841,7 @@ body {
     height: 500px;
     margin: auto;
     background: #6ec56e;
-    overflow-y: hidden;
+  
     /* .content3{
  display: none;
     img{
@@ -850,6 +851,10 @@ body {
  
    }} */
   }
+  .p-btn-div{
+    background-color:#6ec56e ;
+  }
+
   .portifolio-container .content-container .content .content1, .portifolio-container .content-container .content .content2, .portifolio-container .content-container .content .content3 {
     width: 320px;
     height: 200px;
